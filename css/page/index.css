@@ -1,0 +1,33 @@
+.home {
+  min-height: 25rem;
+  max-width: 37.5rem !important;
+}
+.home #word {
+  font-size: 0.75rem;
+  letter-spacing: 0.0625rem;
+  line-height: 0.75rem;
+  margin: 3.125rem 0 1.5625rem;
+  display: block;
+}
+.home .recent-posts-item {
+  display: flex;
+}
+.home .recent-posts-item a {
+  font-size: 1.0625rem;
+  line-height: 1.0625rem;
+  text-decoration: none;
+  color: #494949;
+}
+.home .recent-posts-item a:hover + span {
+  opacity: 1;
+}
+.home .recent-posts-item span {
+  font-size: 0.875rem;
+  margin-left: 1.5625rem;
+  color: #aaa;
+  opacity: 0;
+  transition: all 0.2s;
+}
+.home .post-nav {
+  margin-top: 3.75rem;
+}
