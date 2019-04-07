@@ -3,6 +3,7 @@
   max-width: 37.5rem !important;
 }
 .home #word {
+  min-height: 0.75rem;
   font-size: 0.75rem;
   letter-spacing: 0.0625rem;
   line-height: 0.75rem;

@@ -1,0 +1,35 @@
+.archive h1 {
+  color: #5a5a5a;
+  font-size: 1.875rem;
+  font-weight: 300;
+}
+.archive .list {
+  margin-bottom: 3.125rem;
+}
+.archive .list:last-child {
+  margin-bottom: 0;
+}
+.archive .list h2 {
+  color: #5a5a5a;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.archive .list ul li {
+  list-style: none;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-bottom: 1.0625rem;
+}
+.archive .list ul li:last-child {
+  margin-bottom: 0;
+}
+.archive .list ul li span {
+  width: 3.75rem;
+  display: inline-block;
+  color: #bbb;
+}
+.archive .list ul li a {
+  color: #494949;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
