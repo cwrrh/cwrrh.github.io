@@ -372,7 +372,7 @@ template {
 .iicyut-comt-header nav a {
   font-size: 0.8125rem;
   line-height: 0.8125rem;
-  color: #494949;
+  color: #5a5a5a;
   text-decoration: none;
   padding: 0.5rem 0.75rem;
 }
@@ -380,31 +380,118 @@ template {
   color: #bbb;
   transition: all 0.3s;
 }
+p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #494949;
+}
+h1 {
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  color: #000;
+}
+h2 {
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  color: #000;
+}
+h3 {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 400;
+  color: #000;
+}
+h4 {
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  font-weight: 400;
+  color: #000;
+}
+h5 {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  font-weight: 400;
+  color: #000;
+}
+h6 {
+  font-size: 0.625rem;
+  line-height: 0.625rem;
+  font-weight: 400;
+  color: #000;
+}
+.about {
+  min-height: 25rem;
+}
 .post-nav {
   display: flex;
   justify-content: flex-end;
 }
 .post-nav a {
   font-size: 0.8125rem;
+  line-height: 0.8125rem;
   color: #494949;
   text-decoration: none;
 }
 .post-nav .prev {
   margin-right: 1.25rem;
 }
+.archive h1 {
+  color: #5a5a5a;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  font-weight: 300;
+}
+.archive .list {
+  margin-bottom: 3.125rem;
+}
+.archive .list:last-child {
+  margin-bottom: 0;
+}
+.archive .list h2 {
+  color: #5a5a5a;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  font-weight: 300;
+}
+.archive .list ul li {
+  list-style: none;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-bottom: 1.0625rem;
+}
+.archive .list ul li:last-child {
+  margin-bottom: 0;
+}
+.archive .list ul li span {
+  width: 3.75rem;
+  display: inline-block;
+  color: #bbb;
+}
+.archive .list ul li a {
+  color: #494949;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
 .home {
   min-height: 25rem;
   max-width: 37.5rem !important;
 }
 .home #word {
+  min-height: 0.75rem;
   font-size: 0.75rem;
-  letter-spacing: 0.0625rem;
   line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
   margin: 3.125rem 0 1.5625rem;
   display: block;
 }
 .home .recent-posts-item {
   display: flex;
+  margin-bottom: 0.625rem;
+}
+.home .recent-posts-item:last-child {
+  margin-bottom: 0;
 }
 .home .recent-posts-item a {
   font-size: 1.0625rem;
@@ -417,6 +504,7 @@ template {
 }
 .home .recent-posts-item span {
   font-size: 0.875rem;
+  line-height: 0.875rem;
   margin-left: 1.5625rem;
   color: #aaa;
   opacity: 0;
@@ -424,6 +512,17 @@ template {
 }
 .home .post-nav {
   margin-top: 3.75rem;
+}
+.post .title {
+  margin-bottom: 0.3125rem;
+}
+.post .meta {
+  margin-bottom: 2.0625rem;
+}
+.post .meta .dates {
+  color: #bbb;
+  font-size: 0.8125rem;
+  line-height: 0.8125rem;
 }
 .main-container {
   max-width: 50%;
