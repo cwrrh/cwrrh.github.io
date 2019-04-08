@@ -1,6 +1,7 @@
 .archive h1 {
   color: #5a5a5a;
   font-size: 1.875rem;
+  line-height: 1.875rem;
   font-weight: 300;
 }
 .archive .list {
@@ -12,6 +13,7 @@
 .archive .list h2 {
   color: #5a5a5a;
   font-size: 1.25rem;
+  line-height: 1.25rem;
   font-weight: 300;
 }
 .archive .list ul li {
